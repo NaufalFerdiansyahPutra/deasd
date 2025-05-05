@@ -1,0 +1,32 @@
+/* Simplified CSS for album */
+body {
+  background: #3c3c3c;
+  font-family: "Cute Font", cursive;
+  margin: 0;
+  padding: 0;
+}
+.album {
+  width: 600px;
+  height: 700px;
+  margin: auto;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.album__page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.album__top-title {
+  font-size: 60px;
+  color: white;
+  padding: 30px;
+}
+.txt-tcw {
+  color: #ccc;
+  font-size: 2rem;
+}
+.content img {
+  width: 100%;
+  border: 5px solid white;
+}
